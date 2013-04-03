@@ -11,14 +11,14 @@
 			<key>decreaseIndentPattern</key>
 			<string>(?x)
 				^\s*\\end\{[^\{\}]+\}$
-			|	^\s*\\\]\s*$
+			|	^\s*\\\].*$
 			|	^\s*\}.*
 			|	^\s*\%.*\(end\).*$
 			</string>
 			<key>increaseIndentPattern</key>
 			<string>(?x)
 				^\s*\\begin\{[^\{\}]+\}(\{.*\})*$
-			|	^\s*\\\[\s*$
+			|	^.*\\\[\s*$
 			|	^.*\\\b(.+)\b\{$
 			|	^\s*\\((sub)[0,2])?section(\*)?\{.*\}.*$
 			</string>
