@@ -5,12 +5,12 @@
 		<key>name</key>
 		<string>Indentation Rules</string>
 		<key>scope</key>
-		<string>text.tex</string>
+		<string>text.tex, sources.bib</string>
 		<key>settings</key>
 		<dict>
 			<key>decreaseIndentPattern</key>
 			<string>(?x)
-				^\s*\\end\{[^\{\}]+\}$
+				^\s*\\end\{[^\{\}]+\}.*$
 			|	^\s*\\\].*$
 			|	^\s*\}.*
 			|	^\s*\%.*\(end\).*$
